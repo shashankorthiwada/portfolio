@@ -11,59 +11,6 @@
     <p>Iam Shashank</p>
     <p>I am on my way to learn Full Stack Web Development....</p>
     <p>I have Worked on Few CLI Apps...</p>
-    <div>
-        import java.util.Scanner;
-
-        public class Anagram
-        {
-        
-            public static void main(String[] args)
-            {
-                Scanner sc = new Scanner(System.in);
-                System.out.println("Enter two Strings");
-                String str1 = sc.next();
-                String str2 = sc.next();
-                Anagram a = new Anagram();
-                String str3 = a.sort(str1);
-                String str4 = a.sort(str2);
-                if (str3.equals(str4))
-                {
-                    System.out.println("Anagrams");
-                }
-                else
-                {
-                    System.out.println("Not anagrams");
-                }
-            }
-        
-            String sort(String str)
-            {
-                char temp;
-                boolean swapped;
-                char[] arr = str.toCharArray();
-                for (int i = 0; i < arr.length; i++)
-                {
-                    swapped = false;
-                    for (int j = 0; j < arr.length - i - 1; j++)
-                    {
-                        if (arr[j] > arr[j + 1])
-                        {
-                            temp = arr[j];
-                            arr[j] = arr[j + 1];
-                            arr[j + 1] = temp;
-                            swapped = true;
-                        }
-                    }
-                    if (!swapped)
-                    {
-                        break;
-                    }
-                }
-                return String.valueOf(arr);
-            }
-        }
-
-    </div>
 </body>
 
 </html>
