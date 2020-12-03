@@ -5,7 +5,7 @@ body {
 }
 
 :root {
-  --primary-color: #00B0FF;
+  --primary-color: #00b0ff;
   --dark-grey: #9ca3af;
   --off-white: #f3f4f6;
 }
@@ -31,6 +31,8 @@ hr {
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .primary-link {
@@ -42,7 +44,6 @@ hr {
 .secondary-link {
   color: var(--primary-color);
   border-radius: 0.5rem;
-  border: 1px solid var(--primary-color);
 }
 
 .list-non-bullet {
@@ -79,7 +80,7 @@ hr {
   font-size: 1.1rem;
 }
 
-.navigation .link-active {
+.link-active {
   font-weight: bold;
 }
 
@@ -87,6 +88,7 @@ hr {
 
 .hero {
   padding: 2rem;
+  padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -134,4 +136,9 @@ hr {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+.footer-header {
+  font-weight: bold;
+  font-size: large;
 }
