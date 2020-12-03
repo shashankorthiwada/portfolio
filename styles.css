@@ -1,0 +1,20 @@
+body {
+  color: orange;
+  background-color: black;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
+
+#lib-header {
+  color: grey;
+}
+
+.para {
+  color: hotpink;
+}
