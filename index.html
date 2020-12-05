@@ -4,165 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student's Portfolio</title>
-    <!-- <style>
-        /* body{
-            color: white;
-            background-color: black;
-       } */
-    
-    </style> -->
-    <link href="styles.css" rel="stylesheet" />
+    <title>home | shashank</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <!-- <h1 style="color:red"> component library </h1> -->
-    <h1 id="lib-header"> component library </h1>
-    <p class="para"><strong>Shashank Korthiwada</strong> is attending neog.camp and is currently completing levelZero
-        one weekend and
-        assignment at a time.</p>
-    <p>This is a <em>component library</em> created by him to better design each element.</p>
-    <p>After creating this library he is going to use the components in his <b>portfolio, blog and all projects</b>
-        created. This will ensure that all his projects have <strong>consistent themeing and styling</strong></p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>The biggest heading h1</h1>
-    <h2>The second biggest heading h2</h2>
-    <p>This is normal text.
-        Long running text would look like this on your website.
-        This will auto fold based on the
-        width</p>
-    <p>This is <strong>Strong</strong> text</p>
-    <p class="para">This is relatively smaller text</p>
-
-    <hr>
-    <h2>@containers </h2>
-
-    <h3>@fluid container</h3>
-    <div class="container container-fluid">
-        This is going to be a fluid container. It will go full width of page. With some margin.
-    </div>
-
-    <h3>@center container</h3>
-    <div class="container container-centered">
-        This is going to be a center container. It will go till a given width and center content.
-    </div>
-
-    <hr>
-    <h2>@links</h2>
-
-    <a class="link primary-link" href="/"> Primary Link</a>
-    <a class="link secondary-link" href="/"> Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered lists</h3>
-
-    <p class="para">We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
-
-    <ul class="list-non-bullet">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>UnOrdered Inline lists</h3>
-
-    <p>Instead of going in a new row, we will create a list which will take columns.</p>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline item one</li>
-        <li class="list-item-inline">Inline item two</li>
-        <li class="list-item-inline">Inline item three</li>
-    </ul>
-
-    <h3>reverse ordered lists</h3>
-    <p>Counting of will go reverse for this list </p>
-    <ol reversed>
-        <li>something</li>
-        <li>something else</li>
-        <li>something elser</li>
-    </ol>
+<div class="container-centered">
 
 
-    <hr>
-
-
-    <h2>@nav</h2>
-    <p>Navigation is used on the top of the page and used to get to different pages</p>
     <nav class="navigation container">
         <div>
-            <div class="nav-brand">theBrandName</div>
+            <div class="nav-brand">ShashanKorthiwada</div>
             <ul class="list-non-bullet nav-pills">
                 <li class="list-item-inline">
-                    <a class="link link-active" href="/" class="active">home</a>
+                    <a class="link link-active" href="/">home</a>
 
                 </li>
                 <li class="list-item-inline">
-                    <a class="link" href="/">products</a>
+                    <a class="link" href="/projects.html">projects</a>
 
                 </li>
                 <li class="list-item-inline">
-                    <a class="link" href="/">about</a>
+                    <a class="link" href="/blogs.html">blogs</a>
                 </li>
             </ul>
         </div>
 
     </nav>
-    <hr>
-
-
-    <h2> @header </h2>
 
     <header class="hero">
         <img class="hero-img" src="images/image.svg" />
         <h1 class="hero-heading">Shashank Korthiwada
-            <span class="heading-inverted">The Web Developer</span> </h1>
+            <span class="heading-inverted end-quote">Software Developer</span> </h1>
     </header>
 
-    <hr />
-
-    <h2> @section</h2>
-
-    <p> A section is used to separate parts of pages. In marketing websites you would have seen a header followed by
-        sections of features, team, pricing, contact info etc.</p>
-    <h3>@normal section</h3>
     <section class="section">
         <div class="container container-centered">
-            <h1> heading inside section</h2>
-                <p>Text defining this section and many more things</p>
-                <a href=""> Primary Button</a>
+            <h1>Bio</h2>
+                <p class="para">I am Shashank Korthiwada, I am a Software Developer Currently Living in Bangalore. Iam
+                    on a mission to
+                    master Full Stack Web Application Development...</p>
         </div>
     </section>
 
-    <h3>@an off white section</h3>
     <section class="section ow">
         <div class="container container-centered">
-            <h1> inside off white section</h2>
-                <p>Text defining this section and many more things</p>
-                <a href="/"></a> Primary Button</a>
+            <h1>Technologies</h2>
+                <p class="para">Iam Familiar with <strong>HTML5, CSS3, JavaScript, Git, AngularJs, NodeJs, Java, Spring
+                        Boot, Microservices</strong></p>
+
         </div>
     </section>
 
-    <hr>
 
+    <section class="section">
+        <div class="container container-centered">
+            <h1>Projects</h2>
+                <p class="para">I have Worked On Some Individual Projects and Hosted them Online...</p>
+                <a class="link secondary-link " href="/projects.html">Browse Projects</a>
+        </div>
+    </section>
 
-    <h2>@footer</h2>
+    <section class="section ow">
+        <div class="container container-centered">
+            <h1>Blogs</h2>
+                <p class="para">I Would Like to document My Journey through the Blogs You can See them here...</p>
+                <a class="link secondary-link" href="/blogs.html">Read Blogs</a>
+        </div>
+    </section>
+
     <footer class="footer">
         <div>
-            <div class="footer-header">header inside footer</div>
+            <div class="footer-header">Social Media Presence</div>
             <ul class="social-links list-non-bullet">
-                <li class="list-item-inline"><a class="link" href="/">socialone</a></li>
-                <li class="list-item-inline"><a class="link" href="/">socialtwo</a></li>
-                <li class="list-item-inline"><a class="link" href="/">socialthree</a></li>
+                <li class="list-item-inline"><a class="link" href="https://github.com/shashankorthiwada"><i
+                            class="fab fa-github"></i></a></li>
+                <li class="list-item-inline"><a class="link"
+                        href="https://in.linkedin.com/in/shashank-korthiwada-3800a18b"><i
+                            class="fab fa-linkedin"></i></a></li>
+                <li class="list-item-inline"><a class="link" href="https://twitter.com/IamKorthiwada"><i
+                            class="fab fa-twitter"></i></a></li>
             </ul>
         </div>
     </footer>
-</body>
+</div>
 
 </html>
