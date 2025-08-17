@@ -216,7 +216,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-black text-gray-900 dark:text-white text-base sm:text-lg">Email</h4>
-                  <p className="text-gray-700 dark:text-gray-200 font-medium text-sm sm:text-base">shashank.korthiwada@gmail.com</p>
+                  <p className="text-gray-700 dark:text-gray-200 font-medium text-sm sm:text-base">shashankorthiwada@gmail.com</p>
                 </div>
               </motion.button>
             </div>

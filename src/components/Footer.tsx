@@ -123,7 +123,7 @@ const Footer = () => {
             <h3 className="text-xl font-black mb-6 tracking-tight text-white">Get In Touch</h3>
             <div className="space-y-4">
               <motion.a
-                href="mailto:shashank.korthiwada@gmail.com"
+                href="mailto:shashankorthiwada@gmail.com"
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 0.6, type: "spring", stiffness: 100 }}
@@ -131,7 +131,7 @@ const Footer = () => {
                 className="flex items-center space-x-3 text-gray-300 hover:text-blue-400 
                          transition-colors duration-300 group"
               >
-                <span className="text-sm">shashank.korthiwada@gmail.com</span>
+                <span className="text-sm">shashankorthiwada@gmail.com</span>
               </motion.a>
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
